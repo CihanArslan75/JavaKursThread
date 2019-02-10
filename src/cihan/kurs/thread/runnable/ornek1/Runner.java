@@ -1,7 +1,7 @@
 package cihan.kurs.thread.runnable.ornek1;
 
 public class Runner {
-
+ 
 	public static void main(String[] args) {
 		Thread t = new Thread(()->System.out.println("geldi"));
 		t.start();
